@@ -1,0 +1,36 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}
+  Certamen 
+{% endblock %}
+{% block header %}
+  <h1>Correo recidencial</h1>
+  
+{% endblock %}
+{% block content %}
+
+  <ul>
+      <div class="col-4">
+          <div class="card mx-auto" style="width: 18rem;">
+              <class="card-img-top" alt="Plan Musical">
+              <div class="card-body">
+                  <h5 class="card-title">Correo</h5>
+                  <p class="card-text"></p>
+                  <a href= "{% url 'correo'%}" class="btn btn-primary">ir</a>
+              </div>
+          </div>
+      </div>
+      <div class="col-4">
+          <div class="card mx-auto" style="width: 18rem;">
+              <class="card-img-top" alt="Plan Musical">
+              <div class="card-body">
+                  <h5 class="card-title">Recidencia</h5>
+                  <p class="card-text"></p>
+                  <a href= "{% url 'recidencia'%}" class="btn btn-primary">ir</a>
+              </div>
+          </div>
+      </div>
+     
+  </ul>
+
+{% endblock %}

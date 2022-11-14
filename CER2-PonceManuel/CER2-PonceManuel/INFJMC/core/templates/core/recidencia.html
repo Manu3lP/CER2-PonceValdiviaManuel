@@ -1,0 +1,29 @@
+{% extends 'core/base.html' %}
+{% block title %}
+Correo recidencial | Recidencias
+{% endblock %}
+{% block header %}
+  <h1>Correo recidencial| Recidencias</h1>
+  <form action="/Buscar/"method="GET">
+    <input type="text" name="pdr">
+    <input type="submit" name="Buscar">
+  </form> 
+  <table class="table table-striped">
+    <thead>
+      <tr>
+      <th scope="col">nu_recidencia</th>
+      <th scope="col">n_correo</th>
+    </tr>
+    </thead>
+    <tbody>
+      {%for Reciden in recidencia1%}
+        <tr>
+        <th scope="row">{{Reciden.nu_recidencia}}</th>
+        <td>{{Reciden.n_correo}}</td>
+        </tr>
+      {%endfor%}
+    </tbody>
+  </table>
+{% endblock %}
+{% block content %}
+{% endblock %}

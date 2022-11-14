@@ -1,0 +1,2 @@
+Superusuario= super (clave:12345)
+usuario=conserje(clave:acb12345)

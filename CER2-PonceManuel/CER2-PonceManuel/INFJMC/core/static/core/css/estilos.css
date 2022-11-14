@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+.text-justify{
+    text-align: justify;
+}
+
+.btn-primary{
+    background-color: #4A6BA1;
+}
+
+.bg-red{
+    background-color: #BF0514;
+}
+.accordion-item{
+    border: 1px solid goldenrod;
+}
+
+.accordion-button:not(.collapsed){
+    color:inherit;
+    background: goldenrod;
+    color: #e8e8e8;
+}
+.card-img-top{
+    height: 30vh;
+    width: auto;
+}
+
+header{
+    
+    height: calc(100vh - 56px);
+}
+
+#jumbotron{
+    padding-top: 15vh;
+}
+
+#recetas {
+    height: calc(100vh - 56px);
+    padding-top: 20vh;
+}
+
+#contacto{
+    height: calc(100vh - 96px);
+    padding-top: 20vh;
+}
+
